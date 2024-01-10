@@ -1,6 +1,7 @@
 import React from "react";
 import { FaAngleDown } from "react-icons/fa";
 import logo from "../../assets/CollageLogo.png";
+import Slider from "../../Components/Home/Slider";
 
 const Navbar = () => {
   return (
@@ -42,6 +43,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <Slider/>
     </div>
   );
 };

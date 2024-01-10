@@ -1,7 +1,9 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Carous from "../../../public/img/carousel-1.jpg";
-import Carouse from "../../../public/img/carousel-2.jpg";
+import img1 from "../../../src/assets/carousal-images/1.jpg";
+import img2 from "../../../src/assets/carousal-images/2.jpg";
+import img3 from "../../../src/assets/carousal-images/3.jpg";
+
 
 const Slider = () => {
   const responsive = {
@@ -34,7 +36,7 @@ const Slider = () => {
         autoPlay={true}
       >
         <div className="relative ">
-          <img src={Carous} alt="" className="w-screen h-[850px]" />
+          <img src={img1} alt="" className="w-screen h-[850px]" />
           <div className="absolute top-[5rem] left-4 w-96 h-96 flex flex-row items-center bg-[rgba(24, 29, 56, .7)]">
             <div className="container">
               <div className="flex flex-row mt-60 ml-60  text-white w-[45rem]">
@@ -67,7 +69,7 @@ const Slider = () => {
         </div>
 
         <div className="relative ">
-          <img src={Carouse} alt="" className="w-screen h-[850px]" />
+          <img src={img2} alt="" className="w-screen h-[850px]" />
           <div className="absolute top-[5rem] left-4 w-96 h-96 flex flex-row items-center bg-[rgba(24, 29, 56, .7)]">
             <div className="container">
               <div className="flex flex-row mt-60 ml-60  text-white w-[45rem]">
